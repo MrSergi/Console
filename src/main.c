@@ -61,7 +61,7 @@ int main(void)
 
 	ledTiming_t* ptrLedTiming2 = pvPortMalloc(sizeof(ledTiming_t));
 	ptrLedTiming2->gpio = GPIOC;
-	ptrLedTiming2->pin = GPIO_Pin_;
+	ptrLedTiming2->pin = GPIO_Pin_14;
 	ptrLedTiming2->timeOff = 460;
 	ptrLedTiming2->timeOn = 20;
 

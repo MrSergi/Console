@@ -9691,9 +9691,9 @@ int main(void)
  800352a:	687b      	ldr	r3, [r7, #4]
  800352c:	4a28      	ldr	r2, [pc, #160]	; (80035d0 <main+0xc0>)
  800352e:	605a      	str	r2, [r3, #4]
-	ptrLedTiming->pin = GPIO_Pin_8;
+	ptrLedTiming->pin = GPIO_Pin_13;
  8003530:	687b      	ldr	r3, [r7, #4]
- 8003532:	f44f 7280 	mov.w	r2, #256	; 0x100
+ 8003532:	f44f 5200 	mov.w	r2, #8192	; 0x2000
  8003536:	811a      	strh	r2, [r3, #8]
 	ptrLedTiming->timeOff = 480;
  8003538:	687b      	ldr	r3, [r7, #4]
@@ -9731,9 +9731,9 @@ int main(void)
  800356a:	683b      	ldr	r3, [r7, #0]
  800356c:	4a18      	ldr	r2, [pc, #96]	; (80035d0 <main+0xc0>)
  800356e:	605a      	str	r2, [r3, #4]
-	ptrLedTiming2->pin = GPIO_Pin_9;
+	ptrLedTiming2->pin = GPIO_Pin_14;
  8003570:	683b      	ldr	r3, [r7, #0]
- 8003572:	f44f 7200 	mov.w	r2, #512	; 0x200
+ 8003572:	f44f 4280 	mov.w	r2, #16384	; 0x4000
  8003576:	811a      	strh	r2, [r3, #8]
 	ptrLedTiming2->timeOff = 460;
  8003578:	683b      	ldr	r3, [r7, #0]
